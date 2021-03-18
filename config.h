@@ -4,6 +4,8 @@
 #define CONFIG \
 { \
    /* name            function                 cached */\
+    SPACER \
+    { "Host: ",       get_host,                true  }, \
     { "Kernel: ",     get_kernel,              true  }, \
     { "Uptime: ",     get_uptime,              false }, \
     { "Packages: ",   get_packages_pacman,   false }, \
@@ -13,9 +15,6 @@
     { "CPU: ",        get_cpu,                 true  }, \
     { "GPU: ",        get_gpu1,                true  }, \
     { "Memory: ",     get_memory,              false }, \
-    SPACER \
-    { "",             get_colors1,             false }, \
-    { "",             get_colors2,             false }, \
 }
 
 #define CPU_CONFIG \
