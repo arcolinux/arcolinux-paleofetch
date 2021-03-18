@@ -14,7 +14,7 @@ char *LOGO[] = {
     "       :oooooooo.      :oooooooo        ",
     "      :ooarcooo         .oooarcoo       ",
     "     :oooooooy           .oooooooo      ",
-    "    :oooooooo   oooooooooooooooooo$     ",
+    "    :oooooooo   ooooooooooooooooooo     ",
    	"   :oooooooo      .-oooooooooooooooo    ",
   	"  oooooooo-            -oooooooooooo.   ",
  	" oooooooo-                 -ooooooooo.  ",

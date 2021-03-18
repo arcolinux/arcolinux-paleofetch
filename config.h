@@ -1,5 +1,5 @@
-#include "logos/arch.h"
-#define COLOR "\e[1;36m"
+#include "logos/arco.h"
+#define COLOR "\e[1;34m"
 
 #define CONFIG \
 { \
