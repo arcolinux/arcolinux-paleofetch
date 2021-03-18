@@ -1,0 +1,21 @@
+char *LOGO[] = {
+	"                                       ",
+    "                   o:                  ",
+    "                  yo/                  ",
+    "                 yoooo                 ",
+    "                yoooooo                ",
+    "               yoooooooo               ",
+    "             .yoooooooooo              ",
+    "            .ooooooooooooo             ",
+    "           .ooooooooooooooo            ",
+    "          .ooooooo-ooooooooo           ",
+    "         .ooooooo-  ooooooooo          ",
+    "        :ooooooo.    :oooooooo         ",
+    "       :ooooooo.      :oooooooo        ",
+    "      :ooooooo         .oooooooo       ",
+    "    :ooooooo     oooooooooooooooo      ",
+   	"   :ooooooo       .-oooooooooooooo     ",
+  	"  ooooooo-             -oooooooooo.    ",
+ 	" ooooooo-                  -ooooooo.   ",
+	"ooooooo.                     -ooooooo  "
+};

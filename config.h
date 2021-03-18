@@ -6,7 +6,6 @@
    /* name            function                 cached */\
     { "",             get_title,               false }, \
     { "",             get_bar,                 false }, \
-    { "OS: ",         get_os,                  true  }, \
     { "Host: ",       get_host,                true  }, \
     { "Kernel: ",     get_kernel,              true  }, \
     { "Uptime: ",     get_uptime,              false }, \
