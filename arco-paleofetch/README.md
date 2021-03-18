@@ -26,8 +26,13 @@ if its not already present.
 
 Compiling
 ---------
+```bash
+mkdir build
+cd build
 
-    make install
+cmake ..
+make
+```
 
 Usage
 -----

@@ -240,8 +240,15 @@ static char *get_battery_percentage() {
   char battery_status[12] = "Unknown";
 
   if ((capacity_file = fopen(BATTERY_DIRECTORY "/capacity", "r")) == NULL) {
-    status = ENOENT;
-    halt_and_catch_fire("Unable to get battery information");
+    //status = ENOENT;
+    //halt_and_catch_fire("Unable to get battery information");
+
+    // Don't crash if no battery is found
+    static const char not_found[] = "Not found";
+    char *no_battery = malloc(sizeof(not_found));
+
+    strcpy(no_battery, not_found);
+    return no_battery;
   }
 
   fscanf(capacity_file, "%d", &battery_capacity);
