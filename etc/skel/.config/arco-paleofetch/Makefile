@@ -1,5 +1,5 @@
 CFLAGS=-O2 -Wall -Wextra -lX11 -lpci
-PREFIX=$(HOME)
+PREFIX="/usr/local"
 CACHE=$(shell if [ "$$XDG_CACHE_HOME" ]; then echo "$$XDG_CACHE_HOME"; else echo "$$HOME"/.cache; fi)
 
 all: paleofetch
@@ -13,5 +13,4 @@ paleofetch: paleofetch.c paleofetch.h config.h
 	strip paleofetch
 
 install: paleofetch
-	mkdir -p $(PREFIX)/.bin
-	install ./paleofetch $(PREFIX)/.bin/paleofetch
+	install ./paleofetch $(PREFIX)/bin/arcolinux-paleofetch
