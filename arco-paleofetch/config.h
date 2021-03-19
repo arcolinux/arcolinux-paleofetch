@@ -5,7 +5,7 @@
 { \
    /* name            function                 cached */\
     SPACER \
-    { "Host: ",       get_host,                true  }, \
+    SPACER \
     { "Kernel: ",     get_kernel,              true  }, \
     { "Uptime: ",     get_uptime,              false }, \
     { "Packages: ",   get_packages_pacman,   false }, \
